@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ums.umszxing">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application>
+        <activity android:name="com.ums.android.android.MipcaActivityCapture"
+            android:theme="@style/ZXingTheme"/>
+    </application>
+
+</manifest>

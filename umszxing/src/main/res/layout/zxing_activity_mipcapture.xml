@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 整体透明画布 -->
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <!-- 扫描取景框 -->
+    <com.ums.android.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+        <ImageView
+            android:id="@+id/capture_iv_back"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/ic_arrow_left_skyblue_128"
+            android:background="@drawable/shape_r25_white"/>
+
+    <LinearLayout
+        android:id="@+id/capture_ly_flashlight"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        android:background="@drawable/shape_r35_gray"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/capture_iv_flashlight"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="3dp"
+            android:src="@mipmap/ic_openflashlight_white_128"/>
+        </LinearLayout>
+
+
+</merge>
