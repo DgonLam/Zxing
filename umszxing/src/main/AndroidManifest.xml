@@ -2,6 +2,7 @@
     package="com.ums.umszxing">
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
     <application>
         <activity android:name="com.ums.android.android.MipcaActivityCapture"
             android:theme="@style/ZXingTheme"/>
